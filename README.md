@@ -19,9 +19,14 @@ Prequisites
 ->EF Core(Entityframework core)
 ->API
 
+Basic Notations
+->"I" in front of a class indicates that it is an interface(An interface contains definitions for a group of related functionalities that a non-abstract class or a struct must implement).
+
+
 Notes:-
 ->Whenever working with APIs then it is not recomnded to pass the direct data entity model it is always recomended to map that to some DTO and pass that DTO, for it you can use automapper.
 ->In .NET 6 Startup.cs file is merged with Program.cs.
+->Good practise for CRUD operation is to create a repository which will do all the CRUD operations.
 
 Things to Remember:-
 ->While adding migration on package manager console check these points:
