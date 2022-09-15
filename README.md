@@ -39,5 +39,3 @@ Things to Remember:-
 Q1.) What is Application DBContext?
 Ans: An instance of DbContext represents a session with database which can be used to query and save instances of your entities to a database.
 
-
-
