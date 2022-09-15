@@ -24,7 +24,7 @@ namespace Mango.Services.ProductAPI.DbContexts
                 ProductName = "Samosa",
                 ProductPrice = 15,
                 ProductDescription = "Praesent scelerisque, mi sed ultrices condimentum, lacus ipsum viverra massa, in lobortis sapien eros in arcu. Quisque vel lacus ac magna vehicula sagittis ut non lacus.<br/>Sed volutpat tellus lorem, lacinia tincidunt tellus varius nec. Vestibulum arcu turpis, facilisis sed ligula ac, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                ProductImgURL = "",
+                ProductImgURL = "https://mangoweb.blob.core.windows.net/mango/11.jpg",
                 ProductCategory = "Appetizer"
             });
             modelBuilder.Entity<Product>().HasData(new Product
@@ -33,7 +33,7 @@ namespace Mango.Services.ProductAPI.DbContexts
                 ProductName = "Paneer Tikka",
                 ProductPrice = 13.99,
                 ProductDescription = "Praesent scelerisque, mi sed ultrices condimentum, lacus ipsum viverra massa, in lobortis sapien eros in arcu. Quisque vel lacus ac magna vehicula sagittis ut non lacus.<br/>Sed volutpat tellus lorem, lacinia tincidunt tellus varius nec. Vestibulum arcu turpis, facilisis sed ligula ac, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                ProductImgURL = "",
+                ProductImgURL = "https://mangoweb.blob.core.windows.net/mango/12.jpg",
                 ProductCategory = "Appetizer"
             });
             modelBuilder.Entity<Product>().HasData(new Product
@@ -42,7 +42,7 @@ namespace Mango.Services.ProductAPI.DbContexts
                 ProductName = "Sweet Pie",
                 ProductPrice = 10.99,
                 ProductDescription = "Praesent scelerisque, mi sed ultrices condimentum, lacus ipsum viverra massa, in lobortis sapien eros in arcu. Quisque vel lacus ac magna vehicula sagittis ut non lacus.<br/>Sed volutpat tellus lorem, lacinia tincidunt tellus varius nec. Vestibulum arcu turpis, facilisis sed ligula ac, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                ProductImgURL = "",
+                ProductImgURL = "https://mangoweb.blob.core.windows.net/mango/13.jpg",
                 ProductCategory = "Dessert"
             });
             modelBuilder.Entity<Product>().HasData(new Product
@@ -51,7 +51,7 @@ namespace Mango.Services.ProductAPI.DbContexts
                 ProductName = "Pav Bhaji",
                 ProductPrice = 15,
                 ProductDescription = "Praesent scelerisque, mi sed ultrices condimentum, lacus ipsum viverra massa, in lobortis sapien eros in arcu. Quisque vel lacus ac magna vehicula sagittis ut non lacus.<br/>Sed volutpat tellus lorem, lacinia tincidunt tellus varius nec. Vestibulum arcu turpis, facilisis sed ligula ac, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                ProductImgURL = "",
+                ProductImgURL = "https://mangoweb.blob.core.windows.net/mango/14.jpg",
                 ProductCategory = "Entree"
             });
         }
