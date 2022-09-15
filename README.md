@@ -27,7 +27,7 @@ Notes:-
 ->Whenever working with APIs then it is not recomnded to pass the direct data entity model it is always recomended to map that to some DTO and pass that DTO, for it you can use automapper.
 ->In .NET 6 Startup.cs file is merged with Program.cs.
 ->Good practise for CRUD operation is to create a repository which will do all the CRUD operations.
-
+->Route helps to differentiate when an API request is made where should it be redirected to.
 Things to Remember:-
 ->While adding migration on package manager console check these points:
 	*The project is set as start-up project.
