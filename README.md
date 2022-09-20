@@ -5,6 +5,7 @@ Why Microservices?
 ->Great when it comes to scaling.
 ->No Bulky Code.
 ->Reduce Downtime.
+->They isolates everything within that environment.
 
 Things I will be learning:
 ->.NET API

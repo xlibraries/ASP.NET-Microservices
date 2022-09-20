@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Mango.Services.ProductAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220915131212_SeedProducts")]
+    [Migration("20220920091508_SeedProducts")]
     partial class SeedProducts
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
