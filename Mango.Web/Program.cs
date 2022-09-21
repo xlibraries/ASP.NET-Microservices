@@ -1,7 +1,20 @@
+using Mango.Web.Services.IServices;
+using Mango.Web.Services;
+using Mango.Web;
+using Microsoft.Extensions.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//Configuring the use of Http client factory
+builder.Services.AddHttpClient<IProductService, ProductService>();
+var Configuration = builder.Configuration;
+SD.ProductAPIBase = Configuration["ServiceUrls:ProductAPI"];
+builder.Services.AddScoped<IProductService, ProductService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
 
 var app = builder.Build();
 
