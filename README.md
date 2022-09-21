@@ -39,4 +39,6 @@ Things to Remember:-
 
 Q1.) What is Application DBContext?
 Ans: An instance of DbContext represents a session with database which can be used to query and save instances of your entities to a database.
+Q2.) What is URI?
+Ans: A Uniform Resource Identifier is a unique sequence of characters that identifies a logical or physical resource used by web technologies.
 
