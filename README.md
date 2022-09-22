@@ -20,9 +20,9 @@ Prequisites
 ->EF Core(Entityframework core)
 ->API
 
-Basic Notations
+Basic Notations & Common Practises
 ->"I" in front of a class indicates that it is an interface(An interface contains definitions for a group of related functionalities that a non-abstract class or a struct must implement).
-
+->To configure multiple startup projects go to sln file -> set start-up project -> multiple projects -> those projects.
 
 Notes:-
 ->Whenever working with APIs then it is not recomnded to pass the direct data entity model it is always recomended to map that to some DTO and pass that DTO, for it you can use automapper.
@@ -35,10 +35,11 @@ Things to Remember:-
 	*Check if right project is selected and package source includes nuget.org in the package manager console.
 	*include System.Confriguation.
 	*Under appsetting.json it won't give you error but check if there are everything is placed correctly as a small comma can cost mutiple hours to solve.
+->With microservices you should never share the code even you have to some duplicate data that is the route you should take, all of the priojects should be self isolated.
 
 Types of API:-
 -> RestAPI: They say Stick to your domain because you have adapted that why so that you can scale your product.
-		Anti patterns are discouraged by a rest principle. For .net there isouclate apigateway
+		Anti patterns are discouraged by a rest principle. For .net there isouclate apigateway.
 -> 
 
 Q1.) What is a serveice?
