@@ -36,9 +36,26 @@ Things to Remember:-
 	*include System.Confriguation.
 	*Under appsetting.json it won't give you error but check if there are everything is placed correctly as a small comma can cost mutiple hours to solve.
 
+Types of API:-
+-> RestAPI: They say Stick to your domain because you have adapted that why so that you can scale your product.
+		Anti patterns are discouraged by a rest principle. For .net there isouclate apigateway
+-> 
 
-Q1.) What is Application DBContext?
+Q1.) What is a serveice?
+Ans: Hosted by server at a physical address and a port. Which works on the principle of request(by consumer) and response(by server).
+Q2.) Why Microservices?
+Ans: It is an design patter, if you put here you will need to seperate everything you can reduce load via using load balancers won't be needing microservices for that.
+Q3.) Difference between Design Pattern and Articture Pattern?
+Ans. Articture will tell you how things will be done, and design will work on localized problems
+Q4.) How Load balancers can be used for monolitic applications?
+Ans. Creating load balanceer into four different particions for mololitic application can reduce load into the database.
+	Types of load balancing: Horizontal and Vertical.
+Q5.) Can Monolitic applications and microservies worktogether and what are it's limitations?
+Ans. Mololethic application and microservies can work together to serve a product. 
+	You can have multiple database in a single server with multiple connections until the number of connection in the pools gets exhausted.
+Q6.) How can I check if a microservice is working properly or not?
+Ans. API gateway can be used to check if a microserive is running or it is down.
+Q7.) What is Application DBContext?
 Ans: An instance of DbContext represents a session with database which can be used to query and save instances of your entities to a database.
-Q2.) What is URI?
+Q8.) What is URI?
 Ans: A Uniform Resource Identifier is a unique sequence of characters that identifies a logical or physical resource used by web technologies.
-
